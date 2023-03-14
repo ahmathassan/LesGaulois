@@ -5,7 +5,7 @@ package personnages;
 public class Gaulois {
 	private String nom;
 	private int force;
-	private int effetPotion;
+	private int effetPotion = 1;
 
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
@@ -39,6 +39,10 @@ public class Gaulois {
 		Gaulois asterix = new Gaulois("Asterix",8);
 		System.out.println(asterix.getNom());
 		System.out.println(asterix);
+		//asterix.prendreParole();
+		asterix.parler("Bonjour");
+		Romain romain = new Romain("Ahmat",9);
+		
 	}
 
 

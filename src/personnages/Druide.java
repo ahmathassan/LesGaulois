@@ -1,9 +1,16 @@
 package personnages;
+import java.util.Random;
 
 public class Druide {
 	private String nom;
 	private int effetPotionMin;
 	private int effetPotionMax;
+	private int forcePotion = 1;
+	
+	public void preparfonction{
+		Random r = new Random();
+        int n = r.nextInt(5);
+	}
 	
 	public Druide(String nom, int effetPotionMin, int effetPotionMax) {
 		this.nom = nom;
