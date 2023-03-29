@@ -9,7 +9,7 @@ public class Druide {
 	
 	public void preparfonction{
 		Random r = new Random();
-        int n = r.nextInt(5);
+        int n = r.nextInt(5);p
 	}
 	
 	public Druide(String nom, int effetPotionMin, int effetPotionMax) {
